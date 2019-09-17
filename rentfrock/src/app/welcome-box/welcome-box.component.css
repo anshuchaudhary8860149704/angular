@@ -1,0 +1,107 @@
+.welcome {
+    background-color: white;
+    width: 338px;
+    height: 111px;
+    border: 2px solid #888080;
+    padding: 10px;
+    margin-top: 35px;
+    color: black;
+    font-size: 16px;
+    font-family: Lato;
+    margin-left: 12%;
+}
+
+.welcome_gray{
+    color: #888;
+    font-family: Montserrat;
+    font-size: 11px;
+    
+    }
+@media only screen and (max-width: 450px){
+.welcome{
+    background-color: white;
+    width: 275px;
+    height: 111px;
+    border: 2px solid #888080;
+    padding: 10px;
+    margin-top: 35px;
+    color: black;
+    font-size: 16px;
+    font-family: Lato;
+    margin-left: 3%;
+}
+.welcome_gray{
+    color: #888;
+    font-family: Montserrat;
+    font-size: 11px;
+    
+    }
+}
+@media only screen and (min-width: 375px){
+.welcome{   
+    width: 99%;
+    margin-left: 3px;
+}
+.welcome_gray{
+    color: #888;
+    font-family: Montserrat;
+    font-size: 11px;
+    
+    }
+
+}
+@media only screen and (min-width: 411px){
+    .welcome{    width: 94%;}
+    .welcome_gray{
+        color: #888;
+        font-family: Montserrat;
+        font-size: 11px;
+        
+        }
+    }
+@media only screen and (min-width: 414px){
+.welcome{    width: 361px;}
+.welcome_gray{
+    color: #888;
+    font-family: Montserrat;
+    font-size: 11px;
+    
+    }
+}
+@media only screen and (min-width: 320px){
+.welcome{width: 279px;}
+.welcome_gray{
+    color: #888;
+    font-family: Montserrat;
+    font-size: 11px;
+    
+    }
+}
+
+@media only screen and (min-width: 360px){
+    .welcome{
+        width: 99%;
+    margin-left: 3px;
+    }
+    .welcome_gray{
+        color: #888;
+        font-family: Montserrat;
+        font-size: 11px;
+        
+        }
+    }
+    @media only screen and (min-width: 1000px){
+        .welcome{
+            width: 86%;
+    margin-left: 46px;
+    padding: 12px;
+    height: 90px;
+    }
+    .welcome_gray{
+        color: #888;
+        font-family: Montserrat;
+        font-size: 11px;
+        
+        }
+}
+

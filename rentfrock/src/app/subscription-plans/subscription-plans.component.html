@@ -1,0 +1,61 @@
+<div class="container">
+        <p class="subs_plan">SUBSCRIPTION PLANS</p>
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6 ">
+                    
+            </div>
+            <div class="col-md-3">
+
+                </div>
+        </div>
+    </div>
+</div>
+<div class="container card_bg">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <p class="subs_plan_declare">Whether you want to use us every month or a few times a year, either plan is totally ﬂexible.Pause, cancel, upgrade your plan at anytime.</p>
+                </div>
+                <div class="col-md-2">
+
+                    </div>   
+        </div>
+    </div>
+    <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-2">
+                    
+                </div>
+                <div *ngFor="let data of data"class="col-md-4">
+                    <div class="card">
+                        <div class="card_data">
+                        <p class="plan">{{data.plan}}</p>
+                        <p class="plan_line_2">Rent {{data.rentpieces}} pieces/month</p>
+                        <p class="plan_line_3">Picked by you or a stylist</p>
+                        <div style="display: flex"><p class="swap">Swap {{data.swap}} piece, once a month</p>
+                           
+                              <span class="hover1"><img id="questionmark_img"src="../../assets/img/question_mark.jpg"  class="questionmark" align="top"></span>
+                            <div class="display_block1"><p id="display_block">{{data.rentpieces}} pieces:</p>
+                              <p>{{data.popupmsg}}</p></div>
+                              </div>
+                             
+
+                        <div class="plan_text"><p>Giving you up to {{data.totalpieces}} total pieces/month</p></div>
+                        <p class="monthPrice">${{data.price}}/month</p>
+                        </div>
+                    </div>
+                    </div>
+                   
+                        <div class="col-md-2">
+
+                            </div>  
+            </div>
+        </div>
+</div>

@@ -1,0 +1,308 @@
+#display_block{
+    text-align: left;
+    font-weight: bold;
+}
+.hover1{
+    position: absolute;
+    left:42.5%;
+    margin-top: -35px;
+
+}
+.hover{
+    position: absolute;
+    left:67.5%;
+    margin-top: -35px;
+
+}
+
+
+
+.hover1{
+    position: absolute;
+    left:42.5%;
+    margin-top: -35px;
+
+}
+.display_block1{
+    position: absolute;
+    left: -20%;
+    right: 48%;
+    top: 26%;
+    padding: 2px;
+    border: 1px solid black;
+    width: 313px;
+    display: none;
+    font-family: Lato;
+    font-size: 12px;
+   
+}
+.display_block1:hover{
+    display: block;
+    background-color:#f7f5f9;; 
+     border-color: black;
+     
+}
+.hover1:hover + .display_block1{
+    display: inline-block;
+    background-color: #f7f5f9;;
+    color: #f9f9f9;
+
+}
+
+@media only screen and (max-width: 360px) {
+    .card_bg{
+        margin-left: 0%;
+        max-width: 100%;
+    }
+    .card{    margin-left: 18px;
+        width: 270px;
+    }
+    .bgc1{    margin-left: 4px;
+    }
+    .card_data{
+        width: 147px;
+    margin-left: 23%;
+    }
+    .swap{
+        width: 100px;
+    margin-left: 21px;
+    }
+    .subs_plan_declare{
+        text-align: center;
+    }
+    
+
+    
+    }
+    @media only screen and (min-width: 320px){
+        #questionmark_img{
+            margin-left: 86px;
+    margin-top: 47px;
+        }
+    }
+    @media only screen and (min-width: 360px){
+        .plan_text{
+            margin-left: -14px;
+        }
+        #questionmark_img{
+            margin-left: 86px;
+    margin-top: 47px;
+        }
+        }
+    @media only screen and (min-width:411px){
+        .card_bg {
+            margin-left: 0%;
+            max-width: 98%;
+        }
+        .card{
+            margin-left: 27px;
+            margin-top: 20px;
+            width: 86%;
+        }
+        .swap{
+            width: 126px;
+    margin-left: 91px;
+        }
+        .plan_text{
+            margin-left: 69px;
+        }
+        .subs_plan_declare{
+            text-align: center;
+        }
+    
+    }
+.subs_plan{
+    margin-top: 80px;
+    text-align: center;
+    font-family: Inconsolata;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.row{
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 140px;
+    margin-left: 39px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1px;
+    text-align: center;
+    background-color: white;
+    height: 283px;
+   
+    border: solid grey;
+    border-width: 3px;
+    font-family: Inconsolata;
+    font-size: 15px;
+    margin-bottom: 57px;
+    /* margin-left: 57px; */
+}
+.card_bg{
+    margin-left: 7.5%;
+    max-width: 86.5%;
+    background-color: #f7f5f9;
+    margin-bottom: 54px;
+
+}
+.plan{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+.plan_line_2{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.plan_line_3{
+    font-size: 12px;
+    font-family: Montserrat;
+    
+}
+.swap{
+    font-size: 14px;
+    margin-top: 2px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.plan_text {
+    font-size: 10px;
+    width: 170px;
+    
+}
+.monthPrice{
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .card_bg {
+        margin-left: 0%;
+        max-width: 100%;
+        background-color: #f7f5f9;
+        margin-bottom: 54px;
+    }
+    .row{
+        display: -webkit-box;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+  }
+  @media only screen and (max-width: 450px){
+    .card_bg{
+        margin-left: 0%;
+        max-width: 99%;
+        background-color: #f7f5f9;
+        margin-bottom: 54px;
+    }
+    
+}
+
+@media only screen and (max-width: 320px){
+    .card {
+        margin-left: 8px;
+    width: 245px;
+    }
+    .plan_text{
+        margin-left: -19px;
+    }
+    .subs_plan_declare{
+        text-align: center;
+    }
+    
+    
+}
+
+
+
+
+  #block_text{
+    font-size: 14px;
+    font-family: Lato;
+    text-align: left;
+    font-weight: 800;
+    margin-top: 8px;
+    
+}
+
+#img{
+    margin-right: 18px;
+    width: 66%;
+}
+@media only screen and (max-width: 414px){
+    .subs_plan_declare{
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 375px){
+.card_bg{
+    margin-left: 0%;
+    max-width: 100%;
+}
+.swap{
+    width: 116px;
+    margin-left: 93px;
+}
+.plan_text{
+    margin-left: 69px;
+}
+.subs_plan_declare{
+    text-align: center;
+}
+
+}
+
+
+@media only screen and (min-width: 1000px){
+    #questionmark_img{
+        margin-left: 66px;
+    margin-top: 48px;
+    }
+    
+    .subs_plan_declare{
+        margin-top: -10px;
+        font-family: Lato;
+        font-size: 17px;
+        list-style-type: none;
+        text-align: center;
+        padding: 20px;
+        margin-left: 66px;
+        width: 557px;
+    }
+     
+      
+     
+    .card_bg{
+        margin-left: 8%;
+    max-width: 82%;
+    background-color: #f7f5f9;
+    }
+    .card{
+        padding: 9px;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    width: 84.5%;
+    border: 3px solid gray;
+    margin-left: 77px;
+    }
+    .swap{
+        width: 116px;
+    margin-left: 34px;
+    }
+    .plan_text{
+        margin-left: 14px;
+    }
+    
+}

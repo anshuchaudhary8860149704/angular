@@ -1,0 +1,137 @@
+.stylesize{
+    width:80%;
+    margin-left: 10%;
+    margin-top: 33px;
+}
+
+.style_head{
+    text-align: center;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 600;
+}
+.heading{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+}
+.items{
+    font-family: Lato;
+    color: #888;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.item_description{
+    color: black;
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 800;
+    float: right;
+    margin-left: 92px;
+}
+
+#icon1{
+    font-family: Lato;
+    color: #888;
+font-weight: 500;
+font-size: 18px;
+    
+    
+}
+#icon_space3 {
+    color: black;
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 800;
+    float: right;
+    margin-top: 11px;
+    text-align: right;
+    margin-left: 47px;
+    width: 202px;
+   
+}
+#icon_space4 {
+    color: black;
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 800;
+    float: right;
+    margin-top: -10px;
+
+    text-align: right;
+    margin-left: 47px;
+    width: 202px;
+    height: 49px;
+}
+
+#icon_space {
+    color: black;
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 800;
+    float: right;
+    margin-top: 11px;
+}
+#icon_space2 {
+    color: black;
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 800;
+    float: right;
+    margin-top: 11px;
+}
+.icon_img_small{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    
+}
+
+.icon_img{
+    height: 40px;
+    width: 40px;
+}
+@media only screen and (max-width: 360px){
+.stylesize {
+    width: 100%;
+    margin-left: 0%;
+}
+}
+
+.subs_plan{
+    margin-top: 80px;
+    text-align: center;
+    font-family: Inconsolata;
+    font-size: 25px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 360px){
+    #icon_space3{
+        width: 178px;
+    margin-top: -11px;
+    }
+}
+@media only screen and (min-width: 411px){
+    #icon_space3{
+        width: 147px;
+        margin-top: -4px;
+    }
+}
+@media only screen and (max-width: 320px){
+#icon_space3{
+    width: 136px;
+}
+}
+@media only screen and (min-width: 375px){
+    #icon_space3 {
+        width: 124px;
+        margin-top: -4px;
+    }
+}
+@media only screen and (min-width: 1000px){
+    #icon_space3 {
+        width: 202px;
+        margin-top: -2px;
+    }
+}

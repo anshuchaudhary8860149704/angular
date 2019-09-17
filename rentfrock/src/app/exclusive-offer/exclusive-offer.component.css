@@ -1,0 +1,647 @@
+
+@media only screen and (max-width: 409px){
+    .bg_gray {
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-right: -50px;
+        padding-left: 75px;
+        margin-left: 19px;
+        width: 90%;
+    }
+    .bgc1{
+        margin-left: 9px;
+    padding-left: 18px;
+    background-size: 40%
+    
+    }
+    .most_popular{
+        right: 67%;
+    }
+    .exclusive_card{
+        width: 231px;
+        margin-left: 43px;
+    }
+    .three_cards1{
+        margin-left: 31px;
+        margin-top: 10px;
+    }
+    
+    
+}
+
+.exclusive_offer_heading {
+    text-align: center;
+    font-family: Inconsolata;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+
+
+
+.stylesummary{
+    text-align: center;
+   
+    font-family: Inconsolata;
+   font-size: 24px;
+   font-weight: 600;
+   margin-left: 60px;
+    
+}
+.bg_gray{
+    background-image: url(../../assets/img/plan_bg.png);
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-right: -50px;
+    padding-left: 32px;
+    
+}
+.bgc{
+    background-image: url(../../assets/img/plan_bg.png);
+    background-repeat: no-repeat;
+    margin-left: 31px;
+    background-size: 793px;
+    padding-top: 30px;
+    padding-left: 26px;
+    
+}
+.bgc1{
+    background-image: url(C:/Users/craterzone/Desktop/task1/ASSETS/plan_bg.png);
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    width: 832px;
+    background-size: 100%;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    
+}
+.exclusive_card {
+    border: 4px solid rgb(129, 129, 129);
+    text-align: center;
+    height: 511px;
+    width: 220px;
+    background-color: white;
+    
+}
+.three_cards1 {
+    border: 4px solid rgb(129, 129, 129);
+    height: 512px;
+    width: 220px;
+    background-color: white;
+    text-align: center;
+    
+    
+}
+#tc_text{
+    width: 171px;
+}
+.tc_text{
+    font-size: 10px;
+    font-family: Inconsolata;
+    
+}
+.three_cards2 {
+    border: 4px solid rgb(129, 129, 129);
+    height: 512px;
+    width: 220px;
+    background-color: white;
+    text-align: center;
+    margin-left: 46px;
+}
+
+.three_cards3 {
+    border: 4px solid rgb(129, 129, 129);
+    height: 510px;
+    width: 220px;
+    background-color: white;
+    margin-right: 30px;
+    text-align: center;
+    margin-left: 109px;
+}
+.bold {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1px;
+}
+.you_save {
+    font-family: Inconsolata;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+}
+.bold2 {
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -15px;
+}
+#list1 {
+    margin-left: -19px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Montserrat;
+    text-align: left;
+    list-style-image: url(../../assets/img/tick.jpg);
+}
+.list{
+    list-style: none;
+    font-family: Inconsolata;
+    font-size: 14px;
+    text-align: left;
+    /* list-style-image: url(../../assets/img/tick.jpg); */
+    
+}
+.listz{
+    list-style: none;
+    font-family: Inconsolata;
+    font-size: 14px;
+   text-align: center;
+    
+}
+
+.price_gureenty{
+    font-weight: 600;
+}
+#line{
+    width: 150px;
+    color: white;
+    
+}
+.bold_bottom4 {
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 38px;
+}
+.bold_bottom10 {
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 188px;
+}
+.bold_bottom3 {
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 123px;
+}
+.bold_bottom5 {
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 38px;
+}
+.bold_plus{
+    font-family: Inconsolata;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -14px;
+}
+.plus_extra_month {
+    text-align: center;
+    font-family: Inconsolata;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: -10px;
+    margin-bottom: 4px;
+}
+.tax{
+    font-size: 10px;
+    font-family: inconsolata;
+    text-align: center;
+    margin-top: -22px;
+    letter-spacing: 1px;
+
+}
+#button1{
+    
+    background-color: #535989;
+    border:none;
+    width: 92%;
+    color: #f9f9f9;
+    height: 28px;
+    cursor:pointer;
+}
+#button2{
+    margin-top: 24px;
+    margin-left: 3px;
+    background-color: rgb(113, 119, 92);
+    border:none;
+    width: 92%;
+    color: #f9f9f9;
+    height: 28px;
+    cursor:pointer;
+}
+#button3{
+    margin-top: 26px;
+    
+    background-color:  rgb(203, 86, 37);
+    border:none;
+    width: 92%;
+    color: #f9f9f9;
+    height: 28px;
+    margin-left: 3px;
+    cursor:pointer;
+}
+#button4{
+    margin-top: 24px;
+    margin-left: 27px;
+    background-color: rgb(238, 161, 47);
+    border:none;
+    width: 92%;
+    color: #f9f9f9;
+    height: 28px;
+    margin-left: 4px;
+    cursor:pointer;
+}
+.most_popular {
+    position: absolute;
+    right: -28%;
+    background-color: #000;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    color: #f7f5f9;
+    font-size: 11px;
+    font-family: Inconsolata;
+    text-align: center;
+    margin-top: -45px;
+}
+@media only screen and (max-width: 375px){
+    .bgc1{        
+      
+        width: 324px;
+        margin-left: 8px;
+        background-size: 207%;
+        margin-top: 52px;
+    }
+    .exclusive_card{
+        margin-left: -8px;
+    width: 86%;
+    }
+    .tc_text{
+        margin-left: 24px;
+        width: 200px;
+    }
+    .most_popular{
+        right: 7%;
+    }
+    .three_cards1{
+        margin-left: 8px;
+    width: 244px;
+    }
+    .exclusive_offer_heading{
+        margin-left: 0%;
+    }
+    .bold_bottom10{
+        margin-top: 174px;
+    }
+    .bold_bottom3{
+        margin-top: 107px;
+    }
+    #button3{
+        margin-top: 26px;
+    }
+    #button4{
+        margin-top: 26px;
+    }
+    #button1{
+        margin-top: 37px;
+    }
+    #button2{
+        margin-top: 38px;
+    }
+    }
+
+
+
+@media only screen and (max-width: 600px){
+    .bg_gray{
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-right: -50px;
+        padding-left: 54px;
+        margin-left: 21px;
+        width: 90%;
+    }
+    
+   
+    .three_cards2{
+        border: 4px solid rgb(129, 129, 129);
+        height: 512px;
+        width: 220px;
+        background-color: white;
+        text-align: center;
+        margin-top: 61px;
+        margin-left: 0px;
+    }
+    .three_cards3{
+        border: 4px solid rgb(129, 129, 129);
+        height: 510px;
+        width: 220px;
+        background-color: white;
+        margin-right: 30px;
+        text-align: center;
+        margin-left: 2px;
+        margin-top: 85px;
+    }
+    .exclusive_offer_heading{
+        text-align: center;
+        font-family: Inconsolata;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 60px;
+        margin-left: 6%;}
+        
+}
+
+
+
+
+
+
+
+
+    
+
+@media only screen and (min-width: 411px){
+    .bgc1{
+        margin-top: 68px;
+    margin-left: 40px;
+    width: 324px;
+    background-size: 228%;
+    }
+    .three_cards1{
+        margin-left: 1px;
+        width: 95%;
+        margin-top: 28px;
+        height: 529px;
+    }
+    .three_cards2{
+        width: 95%;
+        margin-top: 28px;
+        height: 529px;
+    }
+    .three_cards3{
+        width: 95%;
+        margin-top: 28px;
+        height: 529px;
+    }
+    .exclusive_card{
+        height: 503px;
+        width: 95%;
+    }
+    .most_popular{
+        right: 0%;
+    }
+    .tc_text{
+        margin-left: 37px;
+        width: 200px;
+    
+    }
+    .bold{
+        margin-top: 16px;
+    width: 223px;
+    margin-left: 21px;
+    }
+    .price_gureenty{
+        width: 215px;
+    }
+    .swap{
+        margin-left: 83px;
+    }
+    #buttom1{
+        margin-top: 8px;
+    }
+    
+}
+@media only screen and (min-width: 414px){
+   
+    .tc_text {
+        margin-left: 37px;
+        width: 200px;
+    }
+    .most_popular{
+        right: 0%;
+    }
+    .exclusive_card{
+        margin-left: 0px;
+        width: 92%;
+    }
+    .three_cards1{
+        margin-left: 22px;
+    margin-top: 10px;
+    width: 92%;
+    }
+    .three_cards2{
+        margin-left: 47px;
+        width: 92%;
+    }
+    .three_cards3{
+        margin-left: 47px;
+        width: 92%;
+    }
+    .bold{
+        margin-top: 16px;
+        width: 223px;
+        margin-left: 21px;
+    }
+    .bold_bottom10{
+        margin-top: 174px;
+    }
+    .bold_bottom3{
+        margin-top: 108px;
+    }
+    .bold_bottom4{
+        margin-top: 20px;
+    }
+    .bold_bottom5{margin-top: 24px;}
+    .bgc1 {
+        
+        margin-left: 20px;
+    width: 334px;
+    background-size: 308%;
+        padding-top: 17px;
+        margin-top: 55px;
+        -webkit-box-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+    .price_gureenty{
+        width: 215px;
+    }
+    .swap{
+        margin-left: 83px;
+    }
+    #button1{
+        margin-top: 14px;
+    }
+    #button2{
+        margin-top: 40px;
+    }
+    #button3{
+        margin-top: 45px;
+    }
+    #button4{
+        margin-top: 42px;
+    }
+   
+}
+@media only screen and (max-width: 360px){
+    .bg_gray{
+        width: 90%;
+        padding-left: 54px;
+    }
+.three_cards1{    
+    margin-left: 3px;
+    width: 92%;
+    
+}
+.three_cards2 {
+    margin-left: 40px;
+    width: 92%;
+}
+.three_cards3{
+    margin-left: 43px;
+    width: 92%;
+}
+.most_popular{right: 2%;}
+.bgc1{
+    width: 313px;
+    margin-left: 10px;
+
+
+}
+.exclusive_card{
+    margin-left: -10px;
+    width: 92%;
+}
+.bold{
+    margin-top: 16px;
+    width: 200px;
+    margin-left: 21px;
+}
+.tc_text{
+    margin-left: 15px;
+}
+#button1{
+    margin-top: 22px;
+}
+#button2{
+    margin-top: 27px;
+}
+#button3{
+    margin-top: 11px;
+}
+#button4{
+    margin-top: 11px;
+}
+}
+@media only screen and (max-width: 320px){
+    .tc_text{
+        margin-left: 20px;
+    }
+   
+    .bgc1{
+        width: 274px;
+    background-size: 242%;
+    }
+    .three_cards1{
+        margin-left: -12px;
+        width: 105%;
+    }
+    .three_cards2{
+        width: 105%;
+    }
+    .three_cards3{
+        width: 105%;
+    }
+    .most_popular{
+        right: -2%;
+    }
+    .exclusive_offer_heading{
+        margin-left: 0%;
+    }
+    .bg_gray{
+        margin-left: 14px;
+    }
+.exclusive_card{
+    margin-left: -22px;
+    width: 105%;
+}
+.bold{
+    margin-left: 13px;
+}
+#button1{
+    margin-top: 21px;
+}
+#button2{
+    margin-top: 26px;
+}
+#button3{
+    margin-top: 10px;
+}
+#button4{
+    margin-top: 9px;
+}
+}
+
+#mp{
+    margin-top: 6px;
+}
+#a2{
+display: none;
+}
+#a3{
+    display: block;
+}
+#a4{
+    display: none;
+}
+@media only screen and (min-width: 1000px){
+   .bgc1{
+    margin-left: 45px;
+    width: 798px;
+    background-size: 95%;
+    padding-top: 17px;
+    margin-top: 0px;
+    background-image: url(../../assets/img/plan_bg.png);
+   } 
+   .exclusive_card{
+    width: 84%;
+    height: 524px;
+   }
+   .three_cards1{
+    width: 123%;
+    margin-left: -38px;
+   }
+   .three_cards2{
+    width: 123%;
+   }
+   .three_cards3{
+    width: 123%;
+   }
+   .bold{
+    margin-left: -12px;
+   }
+   .most_popular{
+    right: -9%;
+   }
+   #button4{
+    margin-top: 24px;
+   }
+   .tc_text{
+    margin-left: 6px;
+   }
+   #button1{
+    margin-top: 35px;
+   }
+}

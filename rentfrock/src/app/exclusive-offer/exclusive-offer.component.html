@@ -1,0 +1,88 @@
+<div class="container">
+    <p class="exclusive_offer_heading">YOUR EXCLUSIVE OFFERS</p>
+  <div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6 ">
+                
+                </div>
+                <div class="col-md-3">
+                
+                    </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="row" >
+            <div *ngFor="let exclusivedatas of edata |slice:0:1" class="col-md-3 bg_gray">
+                    <div class="exclusive_card" >
+                            <div><p class="bold">PRE-PAY {{exclusivedatas.month}} MONTH: ${{exclusivedatas.monthplan}}/MONTH PLAN</p></div>
+                            <p class="you_save">YOU SAVE</p>
+                            <p class="bold2">${{exclusivedatas.yousave}}</p>
+                            <hr id="line">
+                            <ul class="list">
+                              <li id="list1">{{exclusivedatas.month}} month of ${{exclusivedatas.monthplan}}/month plan</li>
+                              <li id="list1">{{exclusivedatas.totalpieces}} total pieces</li>
+                              <li id="list1">Free shipping for {{exclusivedatas.shipping}} month</li>
+                              <li id="list1">Free insurance for {{exclusivedatas.insurance}} month</li>
+                            </ul>
+                            <hr id="line" >
+                            <p class="bold_bottom10">YOUR PRICE: ${{exclusivedatas.yourprice}} <a  class="tax">+ tax</a></p>
+                            
+                            <p class="tax"><i>Regular Price ${{exclusivedatas.regularprice}} + tax</i></p>
+                            <button id="button1" type="button" (click)="makepayments(1)" routerLink="/payments">PRE-PAY {{exclusivedatas.month}} MONTH</button>
+                          </div>
+            </div>
+            <div class="col-md-9" >
+                <div class="row bgc1" >
+                    <div *ngFor ="let exclusivedatas of edata | slice:1 ;let i = index" class="col-md-3">
+                      
+                      
+                      <div  class="three_cards1">
+                         
+                              
+                                    <div class="most_popular" id="a{{i+2}}" >
+                                      <p id="mp">MOST POPULAR</p>
+                                    </div>
+                                    <div><p class="bold">PRE-PAY {{exclusivedatas.month}} MONTHS: ${{exclusivedatas.monthplan}}/MONTH PLAN</p></div>
+                                     
+                                     <p class="you_save">YOU SAVE</p>
+                                     <p class="bold2">${{exclusivedatas.yousave}}</p>
+                                     <hr id="line">
+                                     <ul class="list">
+                                       <li id="list1">{{exclusivedatas.month}} months of ${{exclusivedatas.monthplan}}/month plan</li>
+                                       <li id="list1">{{exclusivedatas.totalpieces}}total pieces</li>
+                                       <li id="list1">Free shipping for {{exclusivedatas.shipping}} months</li>
+                                       <li id="list1">Free insurance for {{exclusivedatas.insurance}} months</li>
+                                     </ul>
+                                     <hr id="line">
+                                     <p class="bold_plus">{{exclusivedatas.plus}}</p>
+                                     <p class="plus_extra_month">{{exclusivedatas.extramonth}}</p>
+                                     <ul class="list">
+                                        <li ><img src="{{exclusivedatas.img}}">{{exclusivedatas.fship}}</li>
+                                        <li ><img src="{{exclusivedatas.img}}">{{exclusivedatas.finsurance}}</li>
+                                        <li class="price_gureenty" ><img src="{{exclusivedatas.img}}">{{exclusivedatas.spg}}</li>
+                                      </ul>
+                                       <p   class="bold_bottom{{i+3}}">YOUR PRICE: ${{exclusivedatas.yourprice}}<a class="tax">+ tax</a></p>
+                                    
+                                      <p class="tax"><i>Regular Price ${{exclusivedatas.regularprice}} + tax</i></p>
+                                       <button  id="button{{i+2}}" type="button" (click)="makepayments(i+2)" routerLink="/payments">PRE-PAY {{exclusivedatas.month}} MONTH</button>
+
+                   
+
+                                      <div id="tc_text">
+                                        <p class="tc_text">{{exclusivedatas.undermsg}}</p>
+                                      </div>
+                                      
+                        </div><br><br><br></div>
+                        
+                            
+                          </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>

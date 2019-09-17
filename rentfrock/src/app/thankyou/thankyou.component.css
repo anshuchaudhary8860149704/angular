@@ -1,0 +1,58 @@
+
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    font-family: Inconsolata;
+    font-weight: 800;
+    margin-top: 62px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+   font-family: Lato;
+    font-weight: 500;
+}
+h2{
+    text-align: center;
+    font-size: 21px;
+    font-family: Inconsolata;
+    font-weight: 800;
+}
+.promise{
+    width: 430px;
+    margin-left: 20%;
+}
+h3{
+    text-align: center;
+    font-size: 23px;
+    font-family: Inconsolata;
+    font-weight: bolder;
+}
+.hr{
+ color: black;
+ width:20%;
+ border: .5px solid;
+
+}
+.hash{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: inconsolata;
+}
+
+@media only screen and (max-width: 768px){
+    .promise {
+margin-left: 2%;
+    }}
+@media only screen and (max-width: 600px){
+.promise {
+    width: 281px;
+    margin-left: 13%;
+}}
+
+@media only screen and (max-width: 360px){
+    .promise {
+margin-left: 7%;
+}}
