@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+
+<html><head>
+        <title>Artist Registration</title>
+        <link rel="shortcut icon" href="https://www.hcl.com/sites/all/themes/hcl/favicon.ico" type="image/vnd.microsoft.icon">
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="C:\Users\craterzone\Desktop\style1.css">
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+        <link href="https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css" rel="stylesheet" type="text/css">
+        
+  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+  
+        <script src="https://connect.facebook.net/signals/plugins/inferredEvents.js?v=2.9.4" async=""></script><script src="https://connect.facebook.net/signals/config/1035816069798987?v=2.9.4&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5SJSD8N"></script><script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.js"></script>
+        <script type="text/javascript" src="js/custom_test.js"></script>
+        <script src="https://unpkg.com/gijgo@1.9.11/js/gijgo.min.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+        <!-- Google Tag Manager -->
+        <style>
+           /* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+.b1{
+	position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 3em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 100px auto;
+	width: 200px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+.button1:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
+
+
+
+
+
+.button1 {
+    margin-top: 30px;
+    padding: 8px 6px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #6d6e71;
+  border: none;
+  border-radius: 15px;
+  
+  margin-right: 15px;
+}
+
+
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    position: relative;
+    width: 390%;
+    background-color: #0068ac;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 30px;
+    position: absolute;
+    z-index: 1;
+  
+    margin-left: -10px;
+    margin-top: 111px;
+    
+
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 2.5s;
+  font-size: 20px;
+  width: 399px;
+}
+@media only screen and (max-width: 450px) {
+    .popup .popuptext {
+    visibility: hidden;
+    position: relative;
+    width: 390%;
+    background-color: #0068ac;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 63px;
+    position: absolute;
+    z-index: 1;
+    
+    margin-left: -55%;
+    margin-top: 63px;
+}
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    font-size: 20px;
+    width: 224px;
+}
+
+.button1{
+	position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 3em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    
+    margin: 100px auto;
+	width: 200px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+.button1:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
+
+
+
+
+
+.button1 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #666;
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 9px #999; */
+  margin-left: -47px;
+  
+}
+
+.button1:hover {background-color: #3e8e41}
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+}
+
+#myPopup{
+    display: inline-block;
+}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+          .h2, h2 {
+              font-size: 3rem !important;
+              padding-top: 1rem !important;
+            }
+            .outer-layout ul.list {
+              padding: 0 0 22px !important;
+            }
+            .album>img{
+                  max-width: initial;
+            }
+            .outer-layout .album{
+              
+      margin: 0 auto;
+      max-width: fit-content;
+            }
+            .gj-datepicker-md [role=right-icon] {
+      position: absolute;
+      right: 7px;
+      top: 7px;
+      font-size: 24px;
+  }
+  .container {
+      max-width: 1140px;
+      margin: 0 auto;
+  }
+  .rows {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+  .col-md-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+  }
+  .text-right {
+      text-align: right!important;
+  }
+  .list-inline {
+      padding-left: 0;
+      list-style: none;
+  }
+  .list-inline-item {
+      display: inline-block;
+      cursor: pointer;
+  }
+  .menuList>li>a {
+      color:black;
+      line-height: 75px;
+      margin: 0 11px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  .col-md-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+  }
+  .addlink_btn{
+      position: relative;
+  }
+  .add_button, .remove_button{
+      position: absolute;
+      top: 12px; 
+      right: 12px;
+  }
+  .remove_button{
+      right: 5px!important;
+  }
+  #dob { 
+      width: 90%;
+      height: 48px;
+      border: 0 !important;
+      padding: 15px!important;
+  }
+  .gj-datepicker-md [role="right-icon"]{top: 14px;!important}
+  .register{padding: 80px 0 0 !important}
+        </style>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+           })(window,document,'script','dataLayer','GTM-5SJSD8N');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-116870177-1"></script>
+        
+        <script>
+                  let a;
+function get(x){
+    a = x;
+
+}
+      
+// function myFunction() {
+
+
+// if(document.getElementById("fname").value !== '')
+// {
+//     document.getElementById("myPopup").style.display = "inline-block";
+//             var popup = document.getElementById("myPopup");
+//   popup.classList.toggle("show");
+//   console.log("fname");
+// }
+// else if(document.getElementById("lname").value !== ''){
+//     document.getElementById("myPopup").style.display = "inline-block";
+//             var popup = document.getElementById("myPopup");
+//   popup.classList.toggle("show");
+//   console.log("lname");
+// }
+// else if(document.getElementById("email").value !== ''){
+//     document.getElementById("myPopup").style.display = "inline-block";
+//             var popup = document.getElementById("myPopup");
+//   popup.classList.toggle("show");
+//   console.log("em");
+// }
+// else if(document.getElementById("phone").value !== ''){
+//     document.getElementById("myPopup").style.display = "inline-block";
+//             var popup = document.getElementById("myPopup");
+//   popup.classList.toggle("show");
+//   console.log("ph");
+// }
+// else if(document.getElementById("youtube_link").value !== ''){
+//     document.getElementById("myPopup").style.display = "inline-block";
+//             var popup = document.getElementById("myPopup");
+//   popup.classList.toggle("show");
+// }
+// else if(document.getElementById("dob").value !== ''){
+//     document.getElementById("myPopup").style.display = "inline-block";
+//             var popup = document.getElementById("myPopup");
+//   popup.classList.toggle("show");
+// }
+// else if(document.getElementById("profile-picture").value !== ''){
+//     document.getElementById("myPopup").style.display = "inline-block";
+//             var popup = document.getElementById("myPopup");
+//   popup.classList.toggle("show");
+// }
+
+// else{
+//     let go = a ;
+// switch (go) {
+//   case 1:
+//   window.location = "https://www.hclconcerts.com/attend/"
+//     break;
+//   case 2:
+//   window.location = "https://www.hclconcerts.com/watch/"
+//     break;
+//   case 3:
+//   window.location = "https://www.hclconcerts.com/listen/"
+  
+//     break;
+//   case 4:
+//   window.location = "https://www.hclconcerts.com/read/"
+//     break;
+//   case 5:
+//   window.location = "https://www.hclconcerts.com/about/"
+//     break;
+//   console.log("else-end");
+// }
+
+        
+//     }  
+
+// }
+function myFunction() {
+    document.getElementById("myPopup").style.display = "block"; 
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+var isMyPopUpShown = false;
+function yes(){
+    isMyPopUpShown = true;
+    if(true){
+        window.location="#register";
+        document.getElementById("myPopup").style.display = "none"; 
+        
+    }
+    
+    
+}
+
+function no(){
+isMyPopUpShown = true;
+if( a==1){
+    window.location= "https://www.hclconcerts.com/attend/"
+}
+else if(a==2){
+    window.location = "https://www.hclconcerts.com/watch/"
+    
+}
+else if(a==3){
+    window.location = "https://www.hclconcerts.com/listen/"
+}
+else if(a==4){
+    windo.location="https://www.hclconcerts.com/read/"
+}
+else if(a==5){
+    window.location="https://www.hclconcerts.com/about/"
+}
+else{
+   window.location= none;
+}
+
+
+        
+    }  
+      
+
+      
+    window.addEventListener("beforeunload", function(event) {
+        
+        // document.getElementById("myPopup").style.display = "none"; 
+console.log("himanshu");
+        if((document.getElementById("fname").value !== '') ||(document.getElementById("profile-picture").value !== '')||(document.getElementById("email").value !== '')
+||(document.getElementById("youtube_link").value !== '')||(document.getElementById("dob").value !== '')||(document.getElementById("phone").value !== '')||(document.getElementById("lname").value !== '')&& (!isMyPopUpShown))
+{
+    isMyPopUpShown = false;
+    event.returnValue = "";
+}
+
+        });
+
+ 
+
+
+        </script>
+  <script>
+
+        
+   
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'UA-116870177-1');
+  </script>
+        <script>
+      $(function() {
+          $('#dob').datepicker({
+                         format: 'dd-mm-yyyy' 
+                  });
+      });
+     </script>
+     <script type="text/javascript">
+  $(document).ready(function(){
+      var maxField = 5; //Input fields increment limitation
+      var addButton = $('.add_button'); //Add button selector
+      var wrapper = $('.field_wrapper'); //Input field wrapper
+      var fieldHTML = '<div class="addlink_btn"><input type="text" name="youtube_link[]" value="" class="addurl_input"/><a href="javascript:void(0);" class="remove_button"><img src="images/remove.png"/></a></div>'; //New input field html 
+      var x = 1; //Initial field counter is 1
+      
+      //Once add button is clicked
+      $(addButton).click(function(){
+          //Check maximum number of input fields
+          if(x < maxField){ 
+              x++; //Increment field counter
+              $(wrapper).append(fieldHTML); //Add field html
+          }
+      });
+      
+      //Once remove button is clicked
+      $(wrapper).on('click', '.remove_button', function(e){
+          e.preventDefault();
+          $(this).parent('div').remove(); //Remove field html
+          x--; //Decrement field counter
+      });
+  });
+  </script>
+     <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1029859492/?random=1566366670702&amp;cv=9&amp;fst=1566366670702&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=7&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg874&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.hclconcerts.com%2Fdigitalconcertsapplication%2F&amp;ref=https%3A%2F%2Fwww.hclconcerts.com%2Flisten%2F&amp;tiba=Artist%20Registration&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></head>
+     <body >
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SJSD8N"
+           height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <header id="main-header" class="main_header" data-height-onload="66">
+           <div class="container clearfix et_menu_container">
+              <div class="row d_flex">
+                              <div class="col-md-4">
+                              <div class="logo_container"> 
+                              <!-- <a href="https://www.hclconcerts.com/"> -->
+                 <img onclick="myfunction()" src="https://www.hclconcerts.com/wp-content/themes/Divi/images/logo.png" alt="HCL" id="logo" data-height-percentage="54">
+                 </a>
+                 
+              </div>
+              
+                              </div>
+                              <div class="col-md-8">
+                                  
+                              <div id="et-top-navigation" data-height="66" data-fixed-height="40">
+                 <nav id="top-menu-nav">
+                    <ul id="top-menu" class="menuList list-inline text-right">
+                       <li  class="list-inline-item" id="menu-item-5244"><a  href="#register">Apply</a></li>
+                       <li class="list-inline-item" id="menu-item-60"><a onclick="myFunction(),get(1)" >Attend</a></li>
+                       <li class="list-inline-item" id="menu-item-59"><a onclick="myFunction(),get(2)" >Watch</a></li>
+                       <li class="list-inline-item" id="menu-item-58"><a onclick="myFunction(),get(3)" >Listen</a></li>
+                       <li class="list-inline-item" id="menu-item-57"><a onclick="myFunction(),get(4)" >Read</a></li>
+                       <li class="list-inline-item" id="menu-item-54"><a onclick="myFunction(),get(5)">About</a></li>
+                    </ul>
+                 </nav> 
+                 
+                     
+                 </div>
+                 
+
+                 </div>
+                 <div class=" col-md-8 popup" >
+               
+              
+            
+        </div>
+              </div>
+                              </div>
+                          </div>
+              <!-- #et-top-navigation -->
+           </div>
+
+           
+           <!-- .container --> 
+        </header>
+        <!-- <div class="container"> -->
+                <div class="row" style="display: flex">                        
+                    <div class="col-md-4"></div>
+                        <div class="col-md-4 popup"><span class="popuptext" id="myPopup" style="text-align: center">Dont miss the unique chance to become the next classical star. Complete your application.<button id="confirmbutton" class="button1"onclick="yes()">Yes, I am in </button> <button id="confirmbutton2" class="button1" style="transition-delay: 3s; transition-duration: 0.1s;" onclick="no()">No, thanks</button></span>     
+                        </div>
+                        <div class="col-md-4"></div>
+   
+        </div> 
+              <div class="outer-layout">
+           <a href="#register" class="fixed" style="display: none;"><img src="images/register.png" alt=""></a>
+           <div class="wrap">
+              <h2>HCL Concerts</h2>
+              <h3>#TrueToOurRoots</h3>
+              <p>Launched in 1998, HCL Concerts has been conserving and promoting the glorious heritage of Indian classical performing arts for 21 years.</p>
+              <div class="concerts"> <img src="images/img1.png" alt=""></div>
+              <ul class="list">
+                 <li><strong>30+</strong> concerts <br>every year</li>
+                 <li><strong>600+</strong> veterans and <br>young maestros</li>
+                 <li>Presence in <br><strong style="font-size:90%;">Delhi-NCR, Lucknow, Nagpur, Madurai and Chennai</strong></li>
+              </ul>
+              <p style="margin-top:38rem;">In our continuous endeavor to nurture and expand the Indian classical music ecosystem, HCL Concerts brings to you</p>
+              <h2 style="padding-top: 16px !important;
+      padding-bottom: 1.2rem !important;
+      font-size: 32px!important;
+  }">HCL Digital Concerts – Unearthing India's Hidden Gems</h2>
+              <p>Driven by the vision of identifying, nurturing and promoting the next generation maestros of Indian classical and fusion music, HCL Digital Concerts is a unique platform which will identify talented and aspiring musicians and provide them an opportunity to showcase their talent on digital as well as physical music concerts</p>
+            <img src="images/banner-album.png" alt="">
+              <!-- <h4>Why should this matter to you?</h4>
+              <ul class="mlist">
+                 <li>First ever talent promotion program for Indian classical and fusion music</li>
+                 <li>Opportunity to perform for digital and physical concerts</li>
+                 <li>Get featured on the HCL Music app and reach out to millions of fans</li>
+              </ul> -->
+              <h4 class="mt-5 mb-0" style="
+      font-size: 32px!important;">How it works?</h4>
+              <ol type="1" class="pt-4 pl-5 pr-5 pb-3 text-left works">
+                 <li>Interested musicians/dancers can apply on this portal by submitting all required information and their music/dance performances.</li>
+                 <li>Once the portal is closed, all entries will be evaluated by our official talent screening partners Perfect Octave.</li>
+                 <li>36 selected finalists will be announced on HCL Concerts social media channels.</li>
+                 <li>All selected finalists will be awarded the opportunity to perform at a digital concert presented by HCL Concerts.</li>
+                 <li>These performances will be evaluated by a panel of experts including accomplished Indian classical artists.</li>
+                 <li>Basis this evaluation, 8 winners will be announced on HCL Concerts social media channels over 12 months.</li>
+                 <li> These winners will get an opportunity to be mentored by the leading artists of today and perform in front of a live audience, along with veteran musicians/performers.</li>
+                  <p class="text-center" style="font-size:14px !important;">** The decisions of the talent screening partners and the panel of experts will be final and binding.</p>
+              </ol>
+             
+              <h5 class=" mb-5"><span style="font-size:30px">If you’re interested, apply now to get a chance to become  </span> <span class="d-block" style="font-size:30px"> the next classical music maestro</span></h5>
+              <div class="scroll">
+                 <span>Scroll down to apply.</span>
+                 <a href="#" class="scroll-btn-down1"><img src="images/down-arrow1.png" alt=""></a>
+              </div>
+           </div>
+        </div>
+        <div class="register" id="register">
+                    <div class="wrap share-music">
+              <h2>Apply here</h2>
+              <form action="" method="post" id="register-form" enctype="multipart/form-data" novalidate="novalidate">
+                 <div class="row">
+                    <div class="col col6">
+                       <input type="text" name="fname" id="fname" placeholder="First Name*" value="">
+                    </div>
+                    <div class="col col6">
+                       <input type="text" name="lname" id="lname" placeholder="Last Name*" value="">
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col col6">
+                       <input type="email" name="email" id="email" placeholder="Email id*" value="">
+                    </div>
+                    <div class="col col6">
+                       <input type="text" name="phone" id="phone" placeholder="Phone Number*" value="">
+                    </div>
+                 </div>
+                 <div class="row">
+                      <div class="p30">
+                      <h3>Rules for sharing music</h3>
+                          <ol class="left rules_list" type="a">
+                          <li>Each performance must not be greater than 15 minutes in duration.</li>
+                          <li>1-2 songs must be studio recordings or live music. However, basic audio quality must be ensured.</li>
+                          <li>The songs can have a bit rate of 128 kbps, 160 kbps or 320 kbps and must not be more than 500 MB in total size.</li>
+                          <li>Do note that the receipt of any material by HCL doesn't guarantee a slot in the digital concerts or that it will be uploaded on the HCL Music app.</li>
+                          <li>The decision of the final performing artists will be at the sole discretion of the HCL, the official talent screening partners and the panel of experts.</li> 
+                          </ol>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="p30">
+                      <h3>Share your Music</h3>
+                      <h4>Please provide the following information</h4>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                          <h3>Link/URL (Youtube/Soundcloud etc.)* <br><span class="url_head">(You can add upto 5 performance links)</span></h3> 
+                      </div>
+                      <div class="col">
+                           <div class="field_wrapper">
+                              <div class="addlink_btn">
+                                  <input type="text" name="youtube_link[]" id="youtube_link" value="" class="addurl_input" placeholder="Youtube/Soundcloud Link">
+                                  <a href="javascript:void(0);" class="add_button" title="Add field"><img src="images/plus.png"></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col edit-email-description">  
+                          <h3> Date Of Birth*</h3> 
+                      </div>
+                      <div class="col">
+                            <div role="wrapper" class="gj-datepicker gj-datepicker-md gj-unselectable"><input type="text" name="dob" id="dob" class="form-control mt-4 gj-textbox-md" placeholder="Date of Birth" data-toggle="datepicker" value="" style="background: #fff;
+                      padding: 5px;
+                      border: solid 1px #ddd;" readonly="" data-type="datepicker" data-guid="1aa843f0-d421-f893-8f7f-34817c716849" data-datepicker="true" role="input"><i class="gj-icon" role="right-icon">event</i></div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col edit-profile-picture"> 
+                          <h3 style="">Add a Profile Picture</h3> 
+                      </div>
+                      <div class="col">
+                          <!--<input type="file" name="profile_picture" id="profile-picture">-->
+                          <div class="file-upload">
+                              <div class="image-upload-wrap">
+                                  <div class="image-upload">
+                                      <div class="drag-text">
+                                          <img src="images/placeholder-image.png" alt="upload image">
+                                          <!-- <h3>Drag and drop a file or select add Image</h3> -->
+                                      </div>
+                                      <input id="profile-picture" name="profile_picture" class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*">
+                                      <input type="hidden" name="profile-picture-url" value="" id="profile-picture-url">
+                                  </div>
+                                  <span>(jpeg, jpg, png)</span>
+                              </div>
+                              <!--<div class="file-upload-content">
+                                  <img class="file-upload-image" src="#" alt="your image" />
+                                  <div class="image-title-wrap">
+                                      <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+                                  </div>
+                              </div>
+                              <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Browse</button>-->
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                  <div class="col edit-artist-bio-description"> 
+                          <h3>Artist Bio*</h3>
+                      </div>
+                      <div class="col">
+                          <textarea placeholder="Write here.." name="artist_bio"></textarea>
+                          <div class="info-wrap"><span class="sub-text">Maximum 750 characters</span></div>
+                      </div>
+                  </div>
+                  </form></div>
+                 <!--<div class="row">
+                    <div class="col1">
+                       <label>
+                          <input type="checkbox" name="term" id="term" />
+                          <span></span>
+                          <p>I hereby confirm to given <a href="#" class="termC">Terms & Conditions</a></p>
+                          <p class="term"><small> I hereby confirm that I am the exclusive and sole owner of the intellectual property rights in my name, of the pictures and music being shared by me for the use of HCL Digital Concerts and for uploading on the HCL Music app (Both owned by HCL Corporation Pvt. Ltd. Or ‘HCL’ or Vama Sundari Investments (Delhi) Pvt. Ltd. or ‘VSIDPL’). The content of the music is my own work and doesn’t constitute breach of intellectual property rights vesting in any other person, group or entity. I also understand that HCL shall not be liable to make any payment for this content. I further agree to defend, indemnify and hold HCL, its directors, employees, agents, affiliates and their officers harmless from and against all costs, expenses, liabilities and losses incurred arising out of or incurred by HCL in connection with claims or suits brought or made with regard to breach of applicable laws, any claim of copyright, trademark or trademark infringement, or violation of personal or property rights based on, or in connection with, the actual use of any content obtained from me by HCL.</small></p>
+                       </label>
+                    </div>
+                 </div>-->
+                 <div class="row">
+                    <div class="col1 center">
+                                            <input type="hidden" value="" name="utm_source" id="utm_source">
+                       <input type="hidden" value="" name="utm_medium" id="utm_medium">
+                       <input type="hidden" value="" name="utm_campaign" id="utm_campaign">
+                       <input type="hidden" value="20/08/2019" name="date" id="date">
+                       <input type="hidden" value="06:32:57pm" name="time" id="time">
+                       <input type="submit" name="submit" class="btn" value="Submit">
+                    </div>
+                 </div>
+              
+          <div class="enquiry"><h4>In case of any query please reach out to us on<br><br> <strong>support@hcl-music.com</strong><br><span></span></h4></div>
+           </div>
+        
+        <footer class="footer">
+           <div class="wrap">
+              <div class="true-roots">
+                 <h3>#TrueToOurRoots</h3>
+                 <p>Excellence in performing arts is the consummation of years of rigorous application and expert training. The fusion of body and mind makes every expression of artistry truly word class. Just as HCL synergizes knowledge with endeavour to produce innovative solutions, HCL Concerts celebrates the sheer brillance of human genius in the field of performing arts.</p>
+              </div>
+              <ul class="social">
+                 <li><a href="http://www.facebook.com/HCLConcerts"><img src="images/fb.png" alt=""></a></li>
+                 <li><a href="https://twitter.com/hclconcerts"><img src="images/tweet.png" alt=""></a></li>
+                 <li><a href="https://www.youtube.com/user/HCLConcertSeries"><img src="images/youtube.png" alt=""></a></li>
+              </ul>
+           </div>
+        </footer>
+        <div class="overlay"></div> 
+     
+  <div role="calendar" type="month" class="gj-picker gj-picker-md datepicker gj-unselectable" guid="1aa843f0-d421-f893-8f7f-34817c716849" month="7" year="2019" style="display: none;"><div role="body"></div></div>
+  <script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1035816069798987");fbq("track","PageView");</script>
+  <noscript>
+   <img height="1" width="1" src="https://www.facebook.com/tr?id=1035816069798987&amp;ev=PageView
+  &amp;noscript=1">
+  </noscript>
+  </body></html>
